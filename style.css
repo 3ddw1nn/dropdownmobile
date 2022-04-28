@@ -1,0 +1,114 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+#logo {
+  height: 60px;
+  margin-right: 14px;
+}
+#menuButton {
+  flex-grow: 0.08;
+}
+#chat {
+  flex-grow: 0.07;
+}
+.logoButton {
+  display: flex;
+  align-items: center;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  font-size: 30pt;
+  padding: 20px;
+  background-color: rgb(255, 217, 92);
+  font-weight: 540;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  justify-content: space-between;
+}
+
+/* .sidebarTitle {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  padding-right: 55px;
+  align-items: center;
+} */
+/* hr{
+    width: 550px;
+    height: 5px;
+    background-color: rgb(232, 229, 219);
+    border: none;
+    margin-right: 40px;
+} */
+.home {
+  margin-top: 25px;
+}
+.list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  margin-top: 24px;
+  margin-left: 24px;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  /* list-style: none; */
+  min-width: 100px;
+  /* background-color: aquamarine; */
+  /* color: rgb(87, 86, 86); */
+  /* font-weight: 600; */
+  /* font-size: 15pt;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+}
+.icons {
+  filter: opacity(60%);
+  height: 60px;
+}
+.title {
+  /* visibility: hidden; */
+  /* opacity: 0; */
+  margin-left: 30px;
+  font-size: 25pt;
+}
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+.main-content {
+  /* display: flex; */
+  padding: 20px;
+  font-size: 28pt;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(211, 237, 237);
+  flex-direction: column;
+}
+.feed-container {
+  height: 300px;
+  width: 500px;
+  border-radius: 2rem;
+  margin-bottom: 25px;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: aliceblue;
+}
+.show {
+  visibility: visible;
+  opacity: 1;
+  min-width: 300px;
+  transform: translateX(0%);
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s,
+    z-index 0s linear 0.01s;
+  transition-delay: 0s, 0s, 0.3s;
+}
+
+.showTitle {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out 0.3s, visibility 0s ease-in-out 0.3s;
+}

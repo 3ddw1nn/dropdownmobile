@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobile Drop Down</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="nav-container">
+      <img
+        onclick="menuSlide(this)"
+        src="icons/menu.svg"
+        id="menuButton"
+        class="icons"
+      />
+      <div class="logoButton">
+        <img src="icons/logo.svg" id="logo" class="icons" />
+        <div class="navBar">Whitter</div>
+      </div>
+      <img src="icons/chat.svg" id="chat" class="icons" />
+    </div>
+    <div class="main-container">
+      <div class="sidebar">
+        <div class="list home">
+          <img src="icons/home.svg" class="icons" />
+          <!-- <div class="title">Home</div> -->
+        </div>
+        <div class="list explore">
+          <img src="icons/explore.svg" class="icons" />
+          <!-- <div class="title">Explore</div> -->
+        </div>
+        <div class="list notifications">
+          <img src="icons/notifications.svg" class="icons" />
+          <!-- <div class="title">Notification</div> -->
+        </div>
+        <div class="list messages">
+          <img src="icons/messages.svg" class="icons" />
+          <!-- <div class="title">Messages</div> -->
+        </div>
+        <div class="list bookmarks">
+          <img src="icons/bookmarks.svg" class="icons" />
+          <!-- <div class="title">Bookmarks</div> -->
+        </div>
+        <div class="list lists">
+          <img src="icons/lists.svg" class="icons" />
+          <!-- <div class="title">Lists</div> -->
+        </div>
+        <div class="list profile">
+          <img src="icons/profile.svg" class="icons" />
+          <!-- <div class="title">Profile</div> -->
+        </div>
+        <div class="list more">
+          <img src="icons/more.svg" class="icons" />
+          <!-- <div class="title">More</div> -->
+        </div>
+      </div>
+      <div class="main-content">
+        Recommended
+        <div id="feed-1" class="feed-container"></div>
+        <div id="feed-2" class="feed-container"></div>
+        <div id="feed-3" class="feed-container"></div>
+      </div>
+    </div>
+  </body>
+</html>
